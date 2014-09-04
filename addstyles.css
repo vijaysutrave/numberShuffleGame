@@ -1,0 +1,65 @@
+@font-face
+{
+	font-family: scriptFont;
+	src: url(scriptFont.ttf);
+}
+
+*  {
+	padding:0;
+	margin:0;
+	background: #333;
+}
+
+h1 {
+	font-family:scriptFont;
+}
+
+h3, hr {
+	margin-bottom:20px;
+}
+
+body 
+{
+	margin: 0 auto;
+	width:90%;
+	height:90%;
+	color:white;
+
+}
+
+.tabs {
+	background-color:#CCC;
+	text-align:center;
+	cursor:pointer;
+
+}
+
+.general {
+	border:2px solid #CCC;
+	display:inline-block;
+	height:30px;
+	width:80px;
+	font-weight:bold;
+}
+
+.buttons {
+	padding:10px;
+	color:white;
+	background:grey;
+
+}
+
+#wrapper {
+	cursor:pointer;
+}
+
+#timer {
+	font-weight:bold;
+}
+
+#howtoplay {
+	position:absolute;
+	bottom:30px;
+	left:50px;
+	
+}			

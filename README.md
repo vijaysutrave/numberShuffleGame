@@ -1,5 +1,9 @@
-games
-=====
+Number Shuffle  Game
+=======================
 
-Fun time!
-Contains all front-end based fun games developed at my leisure :) 
+Game developed in pure JavaScript.
+
+How to Play:
+
+- Use the empty box to navigate adjacent cells
+- Move the cells and set the numbers in ascending order

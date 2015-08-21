@@ -1,41 +1,56 @@
-
 <!doctype html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Number Shuffle Game</title>
-	<link rel="stylesheet" href="addstyles.css" />
-	<script src="jsgamehandler.js"></script>
-</head>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body onLoad="redraw();">
-	<h1 align="center">
-		Number Shuffle Game
-	</h1>
-	<h3 align="center">By Vijay Sutrave</h3>
-	
-	<hr>
-	<div id="timer" align="center">0hr(s) : 0m : 0s</div>
-	<br>
-	<div id="allbuttons" align="center">
-		<input type="button" value="New Game" onclick="redraw();" class="buttons" />
-		<input type="button" value="Easy" onclick="game(3,3);" class="buttons" />
-		<input type="button" value="Medium" onclick="game(4,4);"  class="buttons"/>
-		<input type="button" value="Difficult" onclick="game(5,5);" class="buttons" />
-	</div>
-	<br /> <br />
-	<div id="wrapper" align="center">
-	</div>
-	
-	<br><br>
-	<div id="howtoplay">
-		<h2>How to Play</h2>
-		<ul>
-			<li>Use the empty box to navigate adjacent cells</li>
-			<li>Move the cells and set the numbers in ascending order</li>
-		</ul>
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        
+<h1 align="center">
+        Number Shuffle Game
+    </h1>
+    <h3 align="center">By Vijay Sutrave</h3>
+    
+    <hr>
+    <div id="timer" align="center">0hr(s) : 0 m : 0 s</div>
+    <br>
+    <div id="allbuttons" align="center">
+        <input type="button" value="New Game" onclick="startGame.init();" class="buttons" />
+        <input type="button" value="Easy" onclick="startGame.start(3,3);" class="buttons" />
+        <input type="button" value="Medium" onclick="startGame.start(4,4);"  class="buttons"/>
+        <input type="button" value="Difficult" onclick="startGame.start(5,5);" class="buttons" />
+    </div>
+    <br /> <br />
+    <div id="wrapper" align="center">
+    </div>
+    
+    <br><br>
+    <div id="howtoplay">
+        <h2>How to Play</h2>
+        <ul>
+            <li>Use the empty box to navigate adjacent cells</li>
+            <li>Move the cells and set the numbers in ascending order</li>
+        </ul>
 
 
-	</div> 
-	
-</body>
+    </div> 
+        <script src="js/main.js"></script>
+    </body>
 </html>

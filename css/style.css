@@ -1,0 +1,53 @@
+@font-face {
+    font-family: timeFont;
+    src: url(../digi2.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    ;
+}
+h3,
+hr {
+    margin-bottom: 20px;
+}
+body {
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+}
+.tabs {
+    text-align: center;
+    cursor: pointer;
+}
+.general {
+    border: 1px solid #CCC;
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+    padding: 8px;
+}
+.buttons {
+    padding: 10px;
+    color: white;
+    background: rgba(124, 126, 120, 0.6);
+    border: none;
+}
+#wrapper {
+    cursor: pointer;
+}
+#timer {
+    font-weight: bold;
+    font-family: timeFont;
+    font-size: 25px;
+    color: rgba(68, 192, 83, 0.77)
+}
+#howtoplay {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
